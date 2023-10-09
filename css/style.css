@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: url('../img/bg-image.svg');
+    background-size: cover;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.form-contact {
+    background: rgba(112, 76, 166, 0.8);
+}
+
+.btn-submit {
+    border: none;
+    color: #4036A9;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+.btn-submit:hover {
+    color: #fff;
+    background-color: #4036A9;
+}
+
+.icon {
+    padding-left: 30px;
+    padding-top: 20px;
+}
