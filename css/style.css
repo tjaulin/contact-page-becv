@@ -11,19 +11,20 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Be Vietnam Pro', sans-serif;
-    background: url('../img/bg-image.svg');
+    background: url('../img/bg-image.svg') no-repeat fixed;
     background-size: cover;
     color: #fff;
     overflow-x: hidden;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4vw;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2vw;
+    font-weight: 300;
 }
 
 input.form-control::placeholder, select.form-select::placeholder {
@@ -63,4 +64,23 @@ footer {
 
 .link-dev-challenges:hover {
     color: #4036A9;
+}
+
+@media screen and (max-width: 1024px) {
+    .icon {
+        padding-left: 30px;
+    }
+    label {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    
 }
