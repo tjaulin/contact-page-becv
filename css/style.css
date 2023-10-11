@@ -84,3 +84,9 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 576px) {
+    footer p  {
+        font-size: 12px;
+    }
+}
