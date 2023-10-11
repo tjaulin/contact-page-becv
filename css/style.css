@@ -31,6 +31,10 @@ input.form-control::placeholder, select.form-select::placeholder {
     color: var(--input-placeholder-color);
 }
 
+footer {
+    background: var(--bg-color);
+}
+
 .form-contact {
     background: var(--bg-color);
 }
@@ -52,9 +56,7 @@ input.form-control::placeholder, select.form-select::placeholder {
     padding-top: 20px;
 }
 
-footer {
-    background: var(--bg-color);
-}
+
 
 .link-dev-challenges {
     /* text-decoration: none; */
@@ -64,6 +66,10 @@ footer {
 
 .link-dev-challenges:hover {
     color: #4036A9;
+}
+
+.valid-icon {
+    color: #79ef5b;
 }
 
 @media screen and (max-width: 1024px) {
